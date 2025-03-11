@@ -138,7 +138,7 @@ python -m venv venv
 # Activate it
 source venv/bin/activate  # On macOS/Linux
 # or
-# venv\Scripts\activate  # On Windows
+venv\Scripts\activate  On Windows (untested)
 
 # Install required packages
 pip install PyQt5 mss
